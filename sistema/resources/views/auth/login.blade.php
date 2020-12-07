@@ -4,7 +4,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>GOODYEAR</title>
+  <title>Tiendas Kaemy SAC</title>
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <!-- CSS -->
@@ -37,12 +37,14 @@
     <!-- Body Content Wrapper -->
     <div class="ms-content-wrapper ms-auth">
       <div class="ms-auth-container">
-        <div class="ms-auth-col">
+        <!-- <div class="ms-auth-col">
           <div class="ms-auth-bg"></div>
-        </div>
+        </div> -->
         <div class="ms-auth-col">
           <div class="ms-auth-form">
             <form action="{{ route('dashboard-login') }}" method="POST" class="needs-validation" novalidate>
+
+     
             <div class="text-left boxed-logo-l mb-4 mb-md-5">
                 <img class="img-fluid" src="{{ asset('assets/img/logo-84x41.png') }}">
             </div>
@@ -63,7 +65,9 @@
                   <div class="invalid-feedback">Por favor proporcione una contraseña.</div>
                 </div>
               </div>
-              <button class="btn btn-primary mt-4 d-block w-100 text-uppercase" type="submit">Iniciar sesión</button> 
+              <button class="btn btn-dark mt-4 d-block w-100 text-uppercase" type="submit">Iniciar sesión</button>
+              
+
             </form>
           </div>
         </div>
