@@ -2527,9 +2527,9 @@
   font-weight: 700;
   display: inline-block;
   font-size: 12px;
-  color: #004EA8;
+  color: #FF1717;
   background: #FFFFFF;
-  border: 2px solid #004EA8;
+  border: 2px solid #FF1717;
   line-height: 38px;
   -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -2562,9 +2562,9 @@
   }
 }
 .action_links ul li.add_to_cart a:hover {
-  background: #FFDE00;
-  border-color: #FFDE00;
-  color: #314B67;
+  background: #FF1717;
+  border-color: #FF1717;
+  color: #fff;
 }
 .action_links ul li.add_to_cart a i {
   font-size: 16px;
@@ -9112,7 +9112,7 @@
   text-decoration: none;
 }
 .main_menu nav > ul > li > a:hover{
-  color: #FFDE00;
+  color: #FF1717;
 }
 .main_menu nav > ul > li > a::before {
   background: #1769D4;

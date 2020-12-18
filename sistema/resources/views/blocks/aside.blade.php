@@ -26,9 +26,7 @@
       </li>
       {{-- Product --}}
 
-      <li class="menu-item">
-        <a href="{{ route('promotions') }}"><span><i class="material-icons fs-16">dashboard</i>Promociones</span></a>
-      </li>
+
 
       <li class="menu-item">
         <a href="{{ route('coupons') }}"><span><i class="material-icons fs-16">dashboard</i>Cupones</span></a>

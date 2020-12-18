@@ -8,17 +8,17 @@
 @if ($promotion && $promotion->id_promotion > 0)
 <section class="bg-promotion mt-1">
     <div class="row text-center">
-        <img class="img-fluid img-promociones-lg" src="http://goodyear.cabanasenlaplaya.com/admin{{ $promotion->image }}" alt="">
+        <img class="img-fluid img-promociones-lg" src="http://127.0.0.1:8000{{ $promotion->image }}" alt="">
     </div>
 </section>
 @endif
 
 <section class="w-100">
-    <div class="row no-gutters">
+    <div class="row no-gutters justify-content-center">
         @foreach($categories_photo as $category)
-        <div class="col-md-6">
+        <div class="col-md-3">
             <a href="{{ url('productos/'.$category->id_category.'/'.str_slug($category->name).'/c') }}">
-                <img class="img-fluid" src="http://goodyear.cabanasenlaplaya.com/admin{{ $category->image }}" alt="{{ $category->name }}" title="{{ $category->name }}" />
+                <img class="img-fluid" src="http://127.0.0.1:8000{{ $category->image }}" alt="{{ $category->name }}" title="{{ $category->name }}" />
             </a>
         </div>
         @endforeach

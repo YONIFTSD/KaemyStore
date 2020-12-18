@@ -3,9 +3,9 @@
         <div class="product_thumb">
             <a href="{{ url('productos/'.$product->id_product.'/'.str_slug($product->name).'/p') }}" class="text-center">
                 @if($product->image)
-                <img class="img-fluid" src="http://goodyear.cabanasenlaplaya.com/admin{{ $product->image }}" alt="{{ $product->name }}" title="{{ $product->name }}" />
+                <img class="img-fluid" src="http://127.0.0.1:8000{{ $product->image }}" alt="{{ $product->name }}" title="{{ $product->name }}" />
                 @else
-                <img class="img-fluid" src="http://goodyear.cabanasenlaplaya.com/admin{{ $product->image }}" alt="{{ $product->name }}" title="{{ $product->name }}" />
+                <img class="img-fluid" src="http://127.0.0.1:8000{{ $product->image }}" alt="{{ $product->name }}" title="{{ $product->name }}" />
                 @endif
             </a>
             <div class="quick_button">

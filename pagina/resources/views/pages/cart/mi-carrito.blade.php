@@ -61,7 +61,7 @@
                                                     <td class="product_remove"><a href="#" class="item-from-remove remove_from_cart"  data-row="{{ $carrito[$i]['id_product'] }}" title="Eliminar"><i class="fas fa-trash-alt"></i></a></td>
                                                     <td class="product_thumb">
                                                         <a href="{{ url('productos/'.$carrito[$i]['id_product'].'/'.str_slug($carrito[$i]['name']).'/p') }}">
-                                                            <img class="img-fluid" src="http://goodyear.cabanasenlaplaya.com/admin/{{ $carrito[$i]['image'] }}" alt="{{$carrito[$i]['name'] }}" title="{{$carrito[$i]['name'] }}">
+                                                            <img class="img-fluid" src="http://127.0.0.1:8000{{ $carrito[$i]['image'] }}" alt="{{$carrito[$i]['name'] }}" title="{{$carrito[$i]['name'] }}">
                                                         </a>
                                                     </td>
                                                     <td class="product_name text-left"><a href="{{ url('productos/'.$carrito[$i]['id_product'].'/'.str_slug($carrito[$i]['name']).'/p') }}">{{ $carrito[$i]['name'] }}</a></td>

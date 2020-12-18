@@ -136,11 +136,7 @@
                                 <span class="pr-3 link-vm-br text-vm">ACERCA DE NOSOTROS</span>
                             </a>
                         </div>
-                        <div class="link-vm">
-                            <a href="{{ url('tienda') }}" class="d-flex align-items-center">
-                                <span class="pr-3 link-vm-br text-vm">TIENDA</span>
-                            </a>
-                        </div>
+      
                         <div class="link-vm">
                             <a href="{{ url('contactenos') }}" class="d-flex align-items-center">
                                 <span class="pr-3 text-vm">CONTACTO</span>

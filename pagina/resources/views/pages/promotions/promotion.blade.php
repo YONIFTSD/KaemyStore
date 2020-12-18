@@ -13,11 +13,11 @@
                             <div class="thumb-s">
                                 <div class="slider slider-nav">
                                     <div>
-                                        <img class="img-fluid" src="http://goodyear.cabanasenlaplaya.com/admin/{{ $promotion->image }}" alt="{{ $promotion->nombre }}" />
+                                        <img class="img-fluid" src="http://127.0.0.1:8000/{{ $promotion->image }}" alt="{{ $promotion->nombre }}" />
                                     </div>
                                     @foreach($promotion_photos as $photo)
                                     <div>
-                                        <img class="img-fluid" src="http://goodyear.cabanasenlaplaya.com/admin/{{ $photo->image }}" alt="{{ $promotion->nombre }}" />
+                                        <img class="img-fluid" src="http://127.0.0.1:8000/{{ $photo->image }}" alt="{{ $promotion->nombre }}" />
                                     </div>
                                     @endforeach
                                 </div>
@@ -30,11 +30,11 @@
                             <div>
                                 <div class="slider slider-for" id="image-viewer">
                                     <div>
-                                        <img class="w-100"  src="http://goodyear.cabanasenlaplaya.com/admin/{{ $promotion->image }}"  alt="{{ $promotion->name }}" />
+                                        <img class="w-100"  src="http://127.0.0.1:8000/{{ $promotion->image }}"  alt="{{ $promotion->name }}" />
                                     </div>
                                     @foreach($promotion_photos as $photo)
                                     <div>
-                                        <img class="w-100" src="http://goodyear.cabanasenlaplaya.com/admin/{{ $photo->image }}" alt="{{ $promotion->name }}" />
+                                        <img class="w-100" src="http://127.0.0.1:8000/{{ $photo->image }}" alt="{{ $promotion->name }}" />
                                     </div>
                                     @endforeach
                                 </div>

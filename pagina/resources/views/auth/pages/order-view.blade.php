@@ -70,7 +70,7 @@
                             <thead>
                                 <tr>
                                     <th class="product_name">Producto</th>
-                                    <th class="product_name">Talla</th>
+                        
                                     <th class="product_quantity">Cantidad</th>
                                     <th class="product-price">Precio</th>
                                     <th class="product_total">Total</th>
@@ -80,7 +80,6 @@
                             @foreach($order_detail as $detail)
                                 <tr>
                                     <td class="product_name text-left"  >{{ $detail->name }}</td>
-                                    <td class="product_name text-center"  >{{ $detail->size }}</td>
                                     <td class="product_quantity"> {{ $detail->quantity }}</td>
                                     <td class="product-price text-right"><span>S/.{{ $detail->unit_price }}</span></td>
                                     <td class="product_total text-right"><span>S/. {{ $detail->total_price }}</span></td>

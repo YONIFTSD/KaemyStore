@@ -13,11 +13,11 @@
                             <div class="thumb-s">
                                 <div class="slider slider-nav">
                                     <div>
-                                        <img class="img-fluid" src="http://goodyear.cabanasenlaplaya.com/admin/{{ $product->image }}" alt="{{ $product->nombre }}" />
+                                        <img class="img-fluid" src="http://127.0.0.1:8000{{ $product->image }}" alt="{{ $product->nombre }}" />
                                     </div>
                                     @foreach($product_photos as $photo)
                                     <div>
-                                        <img class="img-fluid" src="http://goodyear.cabanasenlaplaya.com/admin/{{ $photo->image }}" alt="{{ $product->nombre }}" />
+                                        <img class="img-fluid" src="http://127.0.0.1:8000{{ $photo->image }}" alt="{{ $product->nombre }}" />
                                     </div>
                                     @endforeach
                                 </div>
@@ -30,11 +30,11 @@
                             <div>
                                 <div class="slider slider-for" id="image-viewer">
                                     <div>
-                                        <img class="w-100"  src="http://goodyear.cabanasenlaplaya.com/admin/{{ $product->image }}"  alt="{{ $product->name }}" />
+                                        <img class="w-100"  src="http://127.0.0.1:8000{{ $product->image }}"  alt="{{ $product->name }}" />
                                     </div>
                                     @foreach($product_photos as $photo)
                                     <div>
-                                        <img class="w-100" src="http://goodyear.cabanasenlaplaya.com/admin/{{ $photo->image }}" alt="{{ $product->name }}" />
+                                        <img class="w-100" src="http://127.0.0.1:8000{{ $photo->image }}" alt="{{ $product->name }}" />
                                     </div>
                                     @endforeach
                                 </div>

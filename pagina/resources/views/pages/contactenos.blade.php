@@ -40,7 +40,7 @@
 							</div>
 							<div class="content">
                 				<p><strong>Correo electrónico</strong></p>
-								<p>contactenos@goodyearfootweat.pe</p>
+								<p>contacto@tiendaskaemy.com</p>
 							</div>
 						</div>
 						<!--end contact info single-->
@@ -120,7 +120,7 @@
 var Latitud = -18.0044137;
 var Longitud = -70.244121;
 var Acercamiento = 18;
-var TituloEmpresa = "Goodyear Footwear Perú";
+var TituloEmpresa = "Tiendas Kaemy";
 var AddressCompany = "Av. Coronel Mendoza N° 00 Tacna, Perú";
 var PhoneCompany = "+51 98673589";
  

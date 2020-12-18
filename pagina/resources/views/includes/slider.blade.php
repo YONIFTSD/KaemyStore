@@ -3,9 +3,9 @@
   <div class="swiper-wrapper">
     @foreach ($coverpages as $be)
     @if (empty($be->url))
-    <div class="swiper-slide"><img class="w-100" src="http://goodyear.cabanasenlaplaya.com/admin{{ $be->image }}" title="{{ $be->title }}" alt="{{ $be->title }}"></div>  
+    <div class="swiper-slide"><img class="w-100" src="http://127.0.0.1:8000{{ $be->image }}" title="{{ $be->title }}" alt="{{ $be->title }}"></div>  
     @else
-    <div class="swiper-slide"><a href="{{ $be->url }}"><img class="w-100" src="http://goodyear.cabanasenlaplaya.com/admin{{ $be->image }}" title="{{ $be->title }}" alt="{{ $be->title }}"></a></div>
+    <div class="swiper-slide"><a href="{{ $be->url }}"><img class="w-100" src="http://127.0.0.1:8000{{ $be->image }}" title="{{ $be->title }}" alt="{{ $be->title }}"></a></div>
     @endif
       
     @endforeach
