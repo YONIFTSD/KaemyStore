@@ -26,7 +26,7 @@
                     <div class="d-flex justify-content-between">
                         <span class="mr-1 text-uppercase font-myrian-pro">{{ $product->name }}</span>
                     </div>
-                   
+                    
                 </div>
             </div>
             <div class="px-3 text-center">
